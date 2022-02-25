@@ -10,7 +10,7 @@ const Profile = () => {
                 <Typography className="title">Software Engineer</Typography>
             </div>
             <figure className="profile_image">
-                <img src={require('../../assets/images/jacProfPic.jpeg')} alt="profile image"/>
+                <img src={require('../../assets/images/jacProfPic.jpeg')} alt="profile"/>
             </figure>
             <div className="profile_information">
                 Insert Timeline<br/>
