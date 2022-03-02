@@ -14,10 +14,10 @@ const Footer = () => {
             </div>
             <div className="footer_right">
                 <Typography className="footer_copyright">
-                    Designed and Developed by <a href="/" target="_blank">James Carr</a>
+                    Designed and Developed by <a href="/" target="_blank" rel="noreferrer">James Carr</a>
                     <br />
                     Clone idea from {" "}
-                    <a href="https://themeforest.net/user/tavonline" target="_blank">
+                    <a href="https://themeforest.net/user/tavonline" target="_blank" rel="noreferrer">
                         Travonline
                     </a>
                     .
