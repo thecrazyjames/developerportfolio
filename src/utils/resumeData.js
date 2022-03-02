@@ -61,17 +61,7 @@ const resumeData = {
         }
     },
 
-    aboutMe: "Accomplished, self-motivated and dynamic Software Engineer backed \
-    by the Co-creating a real-time multiplayer game on iOS and Android, Online\
-     Self-Paced Software Engineering Programs, two years of engineering software\
-      sales and seven years of Civil Engineering and Environmental design\
-       consultation. Expert relationship building and customer service and focus. \
-       Proven expertise in building and nurturing client relationships resulting in \
-       increased brand share and awareness. Hands-on experience has enabled the \
-       development of expert organizational, analytical, and written, verbal and \
-       interpersonal communication skills which help to ensure the successful \
-       integration with varied personalities, cross-functional teams, and the ability \
-       to quickly establish and maintain credibility",
+    aboutMe: "Accomplished, self-motivated and dynamic Software Engineer backed by the Co-creating a real-time multiplayer game on iOS and Android, Online Self-Paced Software Engineering Programs, two years of engineering software sales and seven years of Civil Engineering and Environmental design consultation. Expert relationship building and customer service and focus. Proven expertise in building and nurturing client relationships resulting in increased brand share and awareness. Hands-on experience has enabled the development of expert organizational, analytical, and written, verbal and interpersonal communication skills which help to ensure the successful integration with varied personalities, cross-functional teams, and the ability to quickly establish and maintain credibility",
 
     experiences: [
         {
@@ -82,11 +72,11 @@ const resumeData = {
         {
             title: "Civil Engineer",
             date: "2012 - 2018, 2020-2022",
-            description: "CEDARVILLE Engineering Group, LLC, 2020 to 2022 \n \
-            Edward B. Walsh & Associates, Inc. , 2015 to 2018 \n \
-            NMP Engineering Consultants, Inc. , 2013 to 2015 \n \
-            Advance Testing Company, Inc. , 2012 (intern) \n \
-            Civil Engineering Project Manager for land development, stormwater, environmental, utility and municipal engineering projects. I coordinate directly with project owners, municipal officials, agency reviewers, design teams, and other engineering consultants managing all aspects of a project from design through construction. Additional activities include business development, proposal writing, managing budgets, running meetings, QA/QC, technical review of plans, calculations and reports, and technical presentations. "
+            description: "CEDARVILLE Engineering Group, LLC, 2020 to 2022 \n" +
+            "Edward B. Walsh & Associates, Inc. , 2015 to 2018 \n" +
+            "NMP Engineering Consultants, Inc. , 2013 to 2015 \n" +
+            "Advance Testing Company, Inc. , 2012 (intern) \n" +
+            "Civil Engineering Project Manager for land development, stormwater, environmental, utility and municipal engineering projects. I coordinate directly with project owners, municipal officials, agency reviewers, design teams, and other engineering consultants managing all aspects of a project from design through construction. Additional activities include business development, proposal writing, managing budgets, running meetings, QA/QC, technical review of plans, calculations and reports, and technical presentations. "
         },
         {
             title: "Software Sales Engineer - Bentley Systems, Inc.",
@@ -104,11 +94,7 @@ const resumeData = {
         {
             title: "Civil Engineer",
             date: "2012 - 2018, 2020-2022",
-            description: "CEDARVILLE Engineering Group, LLC, 2020 to 2022 \n \
-            Edward B. Walsh & Associates, Inc. , 2015 to 2018 \n \
-            NMP Engineering Consultants, Inc. , 2013 to 2015 \n \
-            Advance Testing Company, Inc. , 2012 (intern) \n \
-            Civil Engineering Project Manager for land development, stormwater, environmental, utility and municipal engineering projects. I coordinate directly with project owners, municipal officials, agency reviewers, design teams, and other engineering consultants managing all aspects of a project from design through construction. Additional activities include business development, proposal writing, managing budgets, running meetings, QA/QC, technical review of plans, calculations and reports, and technical presentations. "
+            description: "Civil Engineering Project Manager for land development, stormwater, environmental, utility and municipal engineering projects. I coordinate directly with project owners, municipal officials, agency reviewers, design teams, and other engineering consultants managing all aspects of a project from design through construction. Additional activities include business development, proposal writing, managing budgets, running meetings, QA/QC, technical review of plans, calculations and reports, and technical presentations. "
         },
         {
             title: "Software Sales Engineer - Bentley Systems, Inc.",
