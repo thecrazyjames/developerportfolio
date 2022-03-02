@@ -1,22 +1,23 @@
-import FacebookIcon from '@mui/icons-material/Facebook';
+// import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import TwitterIcon from '@mui/icons-material/Twitter';
+// import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 
 import WebOutlinedIcon from '@mui/icons-material/WebOutlined';
 
+// import Portfolio1 from '../assets/images/portfolio1.jpeg'
+import { GitHub, Language, YouTube } from '@mui/icons-material';
 
 
-
-export default {
+const resumeData = {
     name: "James Carr",
     title: "Full Stack Developer",
 
     birthday: "18th October 1989",
 
     email: "jamescarr1018@gmail.com",
-    address: "123 test street",
+    address: "Greater Philadelphia",
     phone: "610-310-8902",
 
     profilesocials: {
@@ -173,5 +174,57 @@ export default {
                 "GitHub"
             ]
         },
+    ],
+    projects: [
+        {
+            tag: 'React',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png',
+            title: "React Project 1",
+            caption: 'A short description',
+            description: "This is my project description - please feel free to reach out with any questions.",
+            links: [
+                {link: "https://www.google.com", icon: <YouTube />},
+                {link: "https://www.google.com", icon: <GitHub />},
+                {link: "https://www.google.com", icon: <Language />}
+            ]
+        },
+        {
+            tag: 'React',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png',
+            title: "React Project 2",
+            caption: 'A short description',
+            description: "This is my project description - please feel free to reach out with any questions.",
+            links: [
+                {link: "https://www.google.com", icon: <YouTube />},
+                {link: "https://www.google.com", icon: <GitHub />},
+                {link: "https://www.google.com", icon: <Language />}
+            ]
+        },
+        {
+            tag: 'Python',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png',
+            title: "Python Project 1",
+            caption: 'A short description',
+            description: "This is my project description - please feel free to reach out with any questions.",
+            links: [
+                {link: "https://www.google.com", icon: <YouTube />},
+                {link: "https://www.google.com", icon: <GitHub />},
+                {link: "https://www.google.com", icon: <Language />}
+            ]
+        },
+        {
+            tag: 'Java',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png',
+            title: "Java Project 1",
+            caption: 'A short description',
+            description: "This is my project description - please feel free to reach out with any questions. This is my project description - please feel free to reach out with any questions. This is my project description - please feel free to reach out with any questions. This is my project description - please feel free to reach out with any questions. This is my project description - please feel free to reach out with any questions. This is my project description - please feel free to reach out with any questions. This is my project description - please feel free to reach out with any questions.",
+            links: [
+                {link: "https://www.google.com", icon: <YouTube />},
+                {link: "https://www.google.com", icon: <GitHub />},
+                {link: "https://www.google.com", icon: <Language />}
+            ]
+        },
     ]
 }
+
+export default resumeData

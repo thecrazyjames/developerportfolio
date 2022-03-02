@@ -1,16 +1,12 @@
 import React from 'react'
 import {
-    Button,
-    Form,
-    FormControl,
     Nav,
     Navbar,
-    NavDropdown,
 } from "react-bootstrap"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import {Link, NavLink, withRouter} from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 import './Header.css'
 import { HomeRounded, Telegram } from '@mui/icons-material';
@@ -51,7 +47,7 @@ const Header = (props) => {
                         as={NavLink}
                         to='/portfolio'
                         className={
-                            pathName === "/portfolio" ? 'header_link_active' : "header_link"
+                            pathName === "/portfolio" ? 'header_link active' : "header_link"
                         }>
                         Portfolio
                     </Nav.Link>    
