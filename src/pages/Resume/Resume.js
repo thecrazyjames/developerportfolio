@@ -186,30 +186,22 @@ const Resume = () => {
                         <Grid container>
                             <Grid item xs={12}>
                                 <Typography className="contactinfo_items">
-                                    <span>Location</span>
+                                    <span>Location:  </span>
                                     {resumeData.address}
                                 </Typography>
                             </Grid>
+                            {/* <Grid item xs={12}>
+                                <Typography className="contactinfo_items">
+                                    <span>Job:  </span>
+                                    {resumeData.job}
+                                </Typography>
+                            </Grid> */}
                             <Grid item xs={12}>
                                 <Typography className="contactinfo_items">
-                                    <span>Location</span>
-                                    {resumeData.address}
+                                    <span>Email:  </span>
+                                    {resumeData.email}
                                 </Typography>
-                            </Grid>
-                            <Grid item xs={12}>
-                                <Typography className="contactinfo_items">
-                                    <span>Location</span>
-                                    {resumeData.address}
-                                </Typography>
-                            </Grid>
-                            <Grid item xs={12}>
-                                <Typography className="contactinfo_items">
-                                    <span>Location</span>
-                                    {resumeData.address}
-                                </Typography>
-                            </Grid>
-                            
-                            
+                            </Grid>                    
                         </Grid>
                     </Grid>
 

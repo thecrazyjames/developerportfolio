@@ -21,7 +21,10 @@ const Header = (props) => {
     const pathName = props.location && props.location.pathname
 
     return (
-        <Navbar expand="lg" sticky='top' className='header'>
+        <Navbar
+            // expand="lg"
+            sticky='top'
+            className='header'>
         {/* Home Link */}
         <Nav.Link as={NavLink} to='/' className={"p-0 m-0"}>
             <Navbar.Brand className="header_home" href="#home">
@@ -29,9 +32,9 @@ const Header = (props) => {
             </Navbar.Brand>
             </Nav.Link>
 
-            <Navbar.Toggle />
+            {/* <Navbar.Toggle /> */}
 
-            <Navbar.Collapse>
+            {/* <Navbar.Collapse> */}
                 <Nav className="header_left">
                 {/* Resume Link */}
                     <Nav.Link
@@ -57,10 +60,12 @@ const Header = (props) => {
                     {Object.keys(resumeData.socials).map(key => (
                         <a href={resumeData.socials[key].link} target="_blank" rel="noreferrer">{resumeData.socials[key].icon}</a>
                     ))}
-                    <CustomButton text={"Hire Me"} icon={<Telegram />} />
+                    <div className="hireMe_btn">
+                        <CustomButton url={"mailto:jamescarr1018@gmail.com"} text={"Hire Me"} icon={<Telegram />} />    
+                    </div>
                 </div>
 
-            </Navbar.Collapse>
+            {/* </Navbar.Collapse> */}
         </Navbar>
     )
 }

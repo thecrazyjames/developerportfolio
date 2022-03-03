@@ -12,6 +12,8 @@ import resumeData from '../../utils/resumeData'
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineItem from '@mui/lab/TimelineItem';
 
+import resumePDF from '../../assets/pdfs/Resume2021JCARR.pdf'
+
 const CustomTimelineItem = ({title, text, link}) => (
     <TimelineItem>
         <CustomTimelineSeparator />
@@ -49,7 +51,7 @@ const Profile = () => {
 
                 </CustomTimeline>
                 <div className="button_container">
-                <CustomButton text={"Download Cv"} icon={<DownloadIcon />} ></CustomButton>
+                <CustomButton url={resumePDF} text={"Download Cv"} icon={<DownloadIcon />} ></CustomButton>
                 </div>
             </div>
 
