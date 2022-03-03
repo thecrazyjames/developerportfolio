@@ -61,7 +61,7 @@ const Header = (props) => {
                         <a href={resumeData.socials[key].link} target="_blank" rel="noreferrer">{resumeData.socials[key].icon}</a>
                     ))}
                     <div className="hireMe_btn">
-                        <CustomButton url={"mailto:jamescarr1018@gmail.com"} text={"Hire Me"} icon={<Telegram />} />    
+                        <CustomButton url={"mailto:jamescarr1018@gmail.com"} text={"Message Me"} icon={<Telegram />} />    
                     </div>
                 </div>
 

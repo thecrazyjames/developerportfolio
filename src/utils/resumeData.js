@@ -7,7 +7,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import WebOutlinedIcon from '@mui/icons-material/WebOutlined';
 
 // import Portfolio1 from '../assets/images/portfolio1.jpeg'
-import { DesignServicesOutlined, DeveloperModeOutlined, EmojiObjectsTwoTone, GitHub, Language, YouTube } from '@mui/icons-material';
+import { Apple, DesignServicesOutlined, DeveloperModeOutlined, EmojiObjectsTwoTone, GitHub, Language, YouTube } from '@mui/icons-material';
 
 
 const resumeData = {
@@ -164,51 +164,36 @@ const resumeData = {
     ],
     projects: [
         {
-            tag: 'React',
-            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png',
-            title: "React Project 1",
-            caption: 'A short description',
-            description: "This is my project description - please feel free to reach out with any questions.",
+            tag: 'Mobile',
+            image: 'https://storage.googleapis.com/production-bluehost-v1-0-9/339/375339/P2I3e9lg/57884dd5e4c241019220ac425347cd71',
+            title: "TALOS: Brawl Masters",
+            caption: '2D Platform Fighting Game',
+            description: "Smash your way to the top in this super real-time brawler! Enter the TALOS arena. BRAWL to become champion. Be MASTERS of your favorite characters..",
             links: [
-                {link: "https://www.google.com", icon: <YouTube />},
-                {link: "https://www.google.com", icon: <GitHub />},
-                {link: "https://www.google.com", icon: <Language />}
+                {link: "https://www.youtube.com/watch?v=sP35gjtKAJI", icon: <YouTube />},
+                {link: "https://apps.apple.com/us/app/talos-brawl-masters/id1316313000", icon: <Apple />}
             ]
         },
         {
             tag: 'React',
-            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png',
-            title: "React Project 2",
-            caption: 'A short description',
-            description: "This is my project description - please feel free to reach out with any questions.",
+            image: 'https://i.ytimg.com/vi/OL8dpUxKsVk/maxresdefault.jpg',
+            title: "Meme Generator",
+            caption: 'Create your own Meme Image with text',
+            description: "Please use this meme generation tool to create funny pictures to share with family and friends. Use the image randomizer from the top 100 meme images API to come up with ideas or upload your own image. Be sure to export and share with your friends!",
             links: [
-                {link: "https://www.google.com", icon: <YouTube />},
-                {link: "https://www.google.com", icon: <GitHub />},
-                {link: "https://www.google.com", icon: <Language />}
+                {link: "https://compassionate-kirch-89251f.netlify.app", icon: <Language />},
+                {link: "https://github.com/thecrazyjames/memegenerator", icon: <GitHub />}
             ]
         },
         {
-            tag: 'Python',
-            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png',
-            title: "Python Project 1",
-            caption: 'A short description',
-            description: "This is my project description - please feel free to reach out with any questions.",
+            tag: 'React',
+            image: 'https://media.istockphoto.com/photos/notepad-to-do-list-get-things-done-picture-id116772376?b=1&k=20&m=116772376&s=170667a&w=0&h=OpFAjU0MyDZG0OJTBvq7t51TrSvmwtVKeGXAaGmpZHc=',
+            title: "To-Do List App",
+            caption: 'Make a to-do list!',
+            description: "This to-do list app allows you to add and delete to do list items seemlessly. If you've added something you dont need or want to remove it from your list, simply click the list item to remove it. Personally I find it helpful for mapping out my day and creating grocery lists.",
             links: [
-                {link: "https://www.google.com", icon: <YouTube />},
-                {link: "https://www.google.com", icon: <GitHub />},
-                {link: "https://www.google.com", icon: <Language />}
-            ]
-        },
-        {
-            tag: 'Java',
-            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png',
-            title: "Java Project 1",
-            caption: 'A short description',
-            description: "This is my project description - please feel free to reach out with any questions. This is my project description - please feel free to reach out with any questions. This is my project description - please feel free to reach out with any questions. This is my project description - please feel free to reach out with any questions. This is my project description - please feel free to reach out with any questions. This is my project description - please feel free to reach out with any questions. This is my project description - please feel free to reach out with any questions.",
-            links: [
-                {link: "https://www.google.com", icon: <YouTube />},
-                {link: "https://www.google.com", icon: <GitHub />},
-                {link: "https://www.google.com", icon: <Language />}
+                {link: "https://pensive-kirch-6822a8.netlify.app", icon: <Language />},
+                {link: "https://github.com/thecrazyjames/reacttodoapp", icon: <GitHub />}
             ]
         },
     ]
