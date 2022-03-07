@@ -62,7 +62,7 @@ const resumeData = {
         }
     },
 
-    aboutMe: "Hi. I'm James. I am an accomplished and self-motivated Software Engineer backed by Civil Engineering Project Management and Software Sales. \n \n My experience includes Co-creating a real-time multiplayer game on iOS and Android, Online Self-Paced Software Engineering Programs, two years of engineering software sales and seven years of Civil Engineering and Environmental design consultation. I have demonstrated expert relationship building and a unwavering focus on problem solving in all aspects of life and work. ",
+    aboutMe: "Hi. I'm James. I am an accomplished and self-motivated Software Engineer backed by Civil Engineering Project Management and Software Sales. \n \n My experience includes Co-creating a real-time multiplayer game on iOS and Android, Online Self-Paced Software Engineering Programs, two years of engineering software sales and seven years of Civil Engineering and Environmental design consultation. I have demonstrated expert relationship building and an unwavering focus on problem solving in all aspects of life and work. ",
 
     experiences: [
         {
