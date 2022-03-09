@@ -12,7 +12,7 @@ import resumeData from '../../utils/resumeData'
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineItem from '@mui/lab/TimelineItem';
 
-import resumePDF from '../../assets/pdfs/Resume2022JCARR.pdf'
+import resumePDF from '../../assets/pdfs/Resume2022JCARR.pdf';
 
 const CustomTimelineItem = ({title, text, link}) => (
     <TimelineItem>
